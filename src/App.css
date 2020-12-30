@@ -23,6 +23,11 @@ body,
   flex-direction: column;
 }
 
+.heading {
+  color: rgb(48, 214, 123);
+  font-size: 3rem;
+}
+
 .search {
   outline: none;
   padding: 20px 7%;
@@ -86,6 +91,10 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
+  .heading {
+    padding: 20px 10%;
+  }
+
   .search {
     padding: 20px 15%;
   }
